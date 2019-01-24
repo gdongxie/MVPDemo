@@ -1,10 +1,12 @@
 package com.zzl.loginmvp.presenter;
 
+import com.zzl.loginmvp.Contract.LoginContract;
+
 /**
  * Created by ZZL on 2018/9/5.
  * Email:gdongxie@gmail.com
  */
-public interface ILoginPresenter {
+public interface ILoginPresenter extends LoginContract.Presenter {
     /***
      *一键清除
      */
